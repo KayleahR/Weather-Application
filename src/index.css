@@ -1,6 +1,6 @@
 .application {
     margin: 30px auto;
-    max-width: 700px;
+    max-width:750px;
     padding: 20px;
     background-color: #aeece5;
     border-radius: 12px;
@@ -16,44 +16,51 @@ header {
 }
 h1 {
     font-family: "Gorditas", serif;
-    font-weight: 700;
+    font-weight: 650;
     color: #1a4d3a;
 }
 h2 {
     font-family: "Gorditas", serif;
-    font-weight: 400;
-    color: #6cdcda;
+    text-align: center;
+    font-weight: 600;
+    color: #499a99;
+    margin: 0;
+    padding: 10px;
 }
 .weather-app {
     display: flex;
-    flex-direction: column;
- 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 .temperature {
-    font-size: 1.2em;
-    color: #1a4d3a;
+    font-size: 2em;
+    color: #1fbc14 !important;
     text-align: right;
-    margin-top: 10px;
-    margin-right: 10px;
-   
+    margin: 0;
+    padding: 10px;
+}
+.weather-icon {
+    font-size: 2.5em;
+    color: #1a4d3a;
+    margin-right: 5px;
 }
 .current-details {
-    font-size: 1.2em;
+    font-size: 1em;
     color: #1a4d3a;
     text-align: left;
-    margin-top: 10px;
-    margin-left: 10px;
-    
+    margin: 0;
+    padding: 10px;
 }
 input[type="search"] {
-    width: 80%;
-    padding: 10px;
-    border: 2px solid #34b36d;
+    width: 65%;
+    padding:10px 12px;
+    border: 3px solid #34b36d;
     color: #1a4d3a;
     background-color: #96c4b5;
     border-radius: 25px;
     box-sizing: border-box;
-    margin:0 auto;
+    margin: 5px 0px 0px 50px;
     font-family: "Gorditas", serif;
     text-align: center;
 }
@@ -61,8 +68,8 @@ input[type="submit"] {
     background-color: #34b36d;
     color: #1a4d3a;
     border: none;
-    border-radius: 50px;
-    padding: 10px 15px;
+    border-radius: 60px;
+    padding: 8px 12px;
     cursor: pointer;
      font-family: "Gorditas", serif;
      margin: 0 auto;
@@ -72,6 +79,6 @@ footer {
     text-align: center;
     margin-top: 20px;
     font-size: 0.9em;
-    color: #6cdcda;
+    color: #4f6261;
     
 }
