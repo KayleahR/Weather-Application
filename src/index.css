@@ -1,6 +1,6 @@
 .application {
     margin: 30px auto;
-    max-width: 1000px;
+    max-width: 700px;
     padding: 20px;
     background-color: #aeece5;
     border-radius: 12px;
@@ -23,6 +23,7 @@ h2 {
     font-family: "Gorditas", serif;
     text-align: center;
     font-weight: 600;
+    font-size: 35px;
     color: #499a99;
     margin: 0;
     padding: 10px;
@@ -35,23 +36,23 @@ h2 {
 .temp {
     font-family: "Gorditas", serif;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 25px;
     color: #1fbc14 !important;
     text-align: right;
     margin: 0;
     padding: 10px;
 }
-
 .weather-icon {
-    font-size: 2.5em;
+    font-size: 60px;
     color: #1fbc14;
-    margin-right: 5px;
+    margin: 10px 10px 10px 250px;
 }
+
 .current-details {
-    font-size: 1em;
+    font-size: 16px;
     color: #1a4d3a;
     text-align: left;
-    margin: 0;
+    margin: 40px 10px 10px 10px;
     padding: 10px;
 }
 input[type="search"] {
