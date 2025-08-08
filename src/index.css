@@ -36,24 +36,34 @@ h2 {
 .temp {
     font-family: "Gorditas", serif;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 40px;
     color: #1fbc14 !important;
     text-align: right;
     margin: 0;
     padding: 10px;
+    display: flex;
 }
 .weather-icon {
-    font-size: 60px;
+    font-size: 75px;
+    font-weight: 500;
     color: #1fbc14;
     margin: 10px 10px 10px 250px;
+    display: flex;
 }
 
 .current-details {
-    font-size: 16px;
-    color: #1a4d3a;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Gorditas", serif;
+    font-size: 14px;
+    color: #4c9f81;
     text-align: left;
-    margin: 40px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
     padding: 10px;
+}
+.current-details strong {   
+    color: #a4b4b4;
+  
 }
 input[type="search"] {
     width: 65%;
