@@ -13,14 +13,14 @@
     <div class="application">
     <header>
         <h1>Hello Forecast</h1>
-       <form action="">
-           <input type="search" placeholder="Enter Location" required minlength="2" />
+       <form action="" id="search-form">
+           <input type="search" placeholder="Enter Location" id="search-form-input" required minlength="2" />
            <input type="submit" value="Search" />                   
        </form>
     </header>
     <main>
-     
-       <h2>Salt Lake City</h2>
+
+       <h2 class="weather-city" id="city">Salt Lake City</h2>
       <div class="weather-app">
        <div class="current-details"><p>Tuesday, April 20th. <br>
         14:54
@@ -38,5 +38,6 @@
 
     </footer>
     </div>
+    <script src="src/index.js"></script>
 </body>
 </html>
