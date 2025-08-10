@@ -1,8 +1,11 @@
 function handleSearchSubmit(event) {
-    event.preventDefault();
-    const cityInput = document.getElementById('search-form-input').value;
-    document.getElementById('city').textContent = cityInput;
+  event.preventDefault();
+  let searchInput = document.querySelector("#search-form-input");
+  let cityElement = document.querySelector("#city");
+  cityElement.innerHTML = searchInput.value;
 }
 
-let searchFormElement = document.querySelector("#search-form");
-searchFormElement.addEventListener("submit", handleSearchSubmit);
+document.addEventListener("DOMContentLoaded", function() {
+  let searchFormElement = document.querySelector("#search-form");
+  searchFormElement.addEventListener("submit", handleSearchSubmit);
+});
