@@ -42,12 +42,14 @@ h2 {
     margin: 0;
     padding: 10px;
     display: flex;
+    align-items: center;
+    gap: 8px;
 }
 .weather-icon {
     font-size: 75px;
     font-weight: 500;
     color: #1fbc14;
-    margin: 5px 15px 5px 5px;
+    margin: 0 0 0 0; 
     display: flex;
 }
 
