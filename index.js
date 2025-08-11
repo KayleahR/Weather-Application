@@ -1,5 +1,21 @@
-function searchCIty (city) {
-  
+function showWeatherData(response) {
+  let temperature = response.data.temperature;
+  let description = response.data.condition.description;
+  let city = response.data.city;
+
+  let temperatureElement = document.querySelector("#temperature");
+  let descriptionElement = document.querySelector("#current-description");
+  let cityElement = document.querySelector("#city");
+
+  temperatureElement.innerHTML = `${temperature}°C`;
+  descriptionElement.innerHTML = description;
+  cityElement.innerHTML = city;
+}
+
+function searchCCity (city) {
+  let apiKey = "co26tbed7b33e4ff46f2bdb0b88af4ea";
+  let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`;
+  axios.get(apiUrl).then(showWeatherData);
 }
 
 function handleSearchSubmit(event) {
