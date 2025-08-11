@@ -43,7 +43,7 @@ h2 {
     padding: 10px;
     display: flex;
     align-items: center;
-    gap: 8px;
+   
 }
 .weather-icon {
     font-size: 75px;
